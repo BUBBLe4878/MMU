@@ -23,3 +23,14 @@ I combined the 2 .step files.
 ![alt text](image-2.png)
 
 **Total time spent: 1hour**
+
+
+# February 25 12:02: Combined.step files
+
+I combined the all .step files.
+
+![alt text](image-3.png)
+
+**Total time spent: 1hour**
+
+
