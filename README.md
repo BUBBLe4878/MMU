@@ -1,7 +1,7 @@
-# DIY Mechanical MMU (Multi‑Material Unit)
+# Mechanical MMU for ender 3
 
-A simple, hardware‑driven MMU designed to let a 3D printer switch filaments using a mechanical selector, a stepper motor, and an external microcontroller.  
-The goal is to avoid complex firmware integrations (like Klipper MMU mods) by using a physical “click‑based” signaling method between the printer and the MMU.
+THis is a hardware‑driven MMU designed to let my 3D printer switch filaments using simple parts, a stepper motor, and an external microcontroller.  
+The goal is to avoid complex firmware stuff (like Klipper) by using an endstop to signal the MMU to change.
 
 
 
