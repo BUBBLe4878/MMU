@@ -1,6 +1,7 @@
 # February 25 8:27: Imported.step files
 
-I started imported the .step file for the printer that this mod will be on.
+Got the printer’s .step model into the fusion360 to begin planning the mod integration.
+like where it would go and what it would look like.
 
 ![alt text](image.png)
 
@@ -9,7 +10,7 @@ I started imported the .step file for the printer that this mod will be on.
 
 # February 25 9:49: Made a.step file
 
-I modeled the holder for the stepper motors.
+Created a new .step file and modeled the holder for the stepper motors. This will serve as mount for the stepper motors.
 
 ![alt text](image-1.png)
 
@@ -18,7 +19,7 @@ I modeled the holder for the stepper motors.
 
 # February 25 10:55: Imported.step files
 
-I combined the 2 .step files.
+Merged the two existing .step files to begin making the full assembly.
 
 ![alt text](image-2.png)
 
@@ -27,7 +28,7 @@ I combined the 2 .step files.
 
 # February 25 12:02: Combined.step files
 
-I combined the all .step files.
+I combined the all .step files. I also made a box on the top for where the circuit board will be going. I also found and modified a ptfe/bowden tube splitter to split the filament.
 
 ![alt text](image-3.png)
 
