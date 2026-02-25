@@ -6,38 +6,36 @@ The goal is to avoid complex firmware stuff (like Klipper) by using an endstop t
 
 
 
-## 🚀 Project Overview
+##  Project Overview
 
 This MMU uses:
-- A **Raspberry Pi Pico W** as the controller  
-- A **stepper motor + A4988 driver** to rotate or slide a filament selector  
-- **Endstop switches** for homing and for the printer to “signal” tool changes  
-- Simple G‑code macros that move the print head to a click‑station to trigger filament changes  
+- A Raspberry Pi Pico W
+- A stepper motor + A4988 driver
+- Endstop switches  
+- G‑code for on filament changes  
 
-The printer doesn’t need MMU‑aware firmware — it only performs motion patterns that the MMU interprets as commands.
-
-
-
-
-## 🧠 How It Works
-
-1. The printer reaches a fixed “MMU signal point.”
-2. It performs a series of short back‑and‑forth moves.
-3. An endstop detects these “clicks.”
-4. The Pico counts the clicks and rotates the selector to the correct filament.
-5. The printer unloads/loads filament normally.
-
-This keeps the printer firmware simple while giving you multi‑material capability.
+It only performs motions(on the endstop) and the MMU will interpret it as commands.
 
 
 
 
-## 🛠️ Features
+##  How It Works
 
-- No firmware mods required  
-- Simple mechanical signaling  
-- Modular design  
-- Cheap, easy‑to‑source components  
-- Expandable to more filaments  
+1. The printer runs into the endstop to signal color change.
+2. An endstop detects the printer running into it.
+3. The Pico counts the clicks and rotates the selector to the correct filament. (I will only do this if this becomes popular if not, then just 2 colors).
+4. The printer unloads/loads filament normally.
+
+This will keep the printer firmware simple while giving multi colors.
+
+
+
+
+##  Features
+
+1.No firmware mods  
+2.Mechanical signaling  
+3.Modular design(LATER) 
+4.CHEAP, especially if you have thease components on hand.  
 
 
